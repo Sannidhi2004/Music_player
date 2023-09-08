@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Dive into the rhythm</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li  class="brand"><img src="Images/spotify.jpg">Spotify</li>
+            <li class="unicorn">Home</li>
+            <li class="about">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+    
+        <div class="SongsList">
+           
+           <br>
+           <br>
+           <div>
+            <h1>Top picks for you</h1>
+            <br>
+            <br>
+             <div class="place">
+                <div class="songItem">
+                  <img src="Images/cover1.jpg" alt="1" height="120cm" width="120cm">
+                  <br>
+                  <span class="songName"> Beautiful Dream</span>
+                  <br>
+                  <span class="songlistplay"><i id="1" class="fa-solid songItemPlay fa-play fa-xl"  style="color: #eff6ef;"></i></span>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="songItem">
+                  <img src="Images/cover2.jpg" alt="1" height="107cm" width="107cm">
+                  <br>
+                  <span class="songName">Deep Meditation</span>
+                  <br>
+                  <span class="songlistplay"><i id="2" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/happy.png" alt="1" height="97cm" width="97cm">
+                    <br>
+                    <span class="songName">Feeling Happy</span>
+                    <br>
+                    <span class="songlistplay"><i id="3" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                </div>
+             </div>
+            </div>
+             <br><br>
+            <div>
+            <h2>Recent releases</h2>
+             <br><br>
+             <div class="place1">
+                  <div class="songItem">
+                  <img src="Images/piano.webp" alt="1" height="120cm" width="120cm">
+                  <br>
+                  <span class="songName">Piano Reflection</span>
+                  <br>
+                  <span class="songlistplay"><i id="4" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                  </div>
+                <br>
+                <br>
+                <br>
+                  <div class="songItem">
+                  <img src="Images/cover5.jpg" alt="1" height="107cm" width="107cm">
+                  <br>
+                  <span class="songName">Delightful</span>
+                  <br>
+                  <span class="songlistplay"><i id="5" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                  </div>
+                  <div class="songItem">
+                    <img src="Images/dream.jpg" alt="1" height="97cm" width="97cm">
+                    <br>
+                    <span class="songName">Dreaming Big</span>
+                    <br>
+                    <span class="songlistplay"><i id="6" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                  </div>
+             </div>
+           </div>
+           <br>
+           <br>
+           <div>
+            <h3>Reccomendations for you</h3>
+            <br>
+            <br>
+             <div class="place2">
+                <div class="songItem">
+                  <img src="Images/cover6.jpg" alt="1" height="120cm" width="120cm">
+                  <br>
+                  <span class="songName">Hazy after hours</span>
+                  <br>
+                  <span class="songlistplay"><i id="7" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="songItem">
+                  <img src="Images/bg1.jpg" alt="1" height="107cm" width="107cm">
+                  <br>
+                  <span class="songName">Tech house vibes</span>
+                  <br>
+                  <span class="songlistplay"><i id="8" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/hip hop.jpg" alt="1" height="97cm" width="97cm">
+                    <br>
+                    <span class="songName">Hip Hop</span>
+                    <br>
+                    <span class="songlistplay"><i id="9" class="fa-solid songItemPlay fa-play fa-xl" style="color: #eff6ef;"></i></span>
+                </div>
+             </div>
+            </div>
+             <br><br>
+        </div>
+           <div class="SongBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value=0 min=0 max=100>
+    <div class="icons">
+        <!--fontawesome icons-->
+        <i class="fa-solid fa-backward fa-2xl" style="color: #fafcff;" id="previous"></i>
+        <i class="fa-solid fa-play fa-2xl" style="color: #eff6ef;" id="masterPlay"></i>
+        <i class="fa-solid fa-forward fa-2xl" style="color: #f7f7f8;" id="next"></i>
+        
+    </div>
+
+    <div class="SongInfo">
+      <img src="Images/playing.gif" width="42px" id="gif" alt=""><span id="masterSongPlay"></span>
+    </div>
+    </div>
+    <script src="spotify.js"></script>
+    <script src="https://kit.fontawesome.com/b78c81de88.js" crossorigin="anonymous"></script>
+</body>
+</html>
